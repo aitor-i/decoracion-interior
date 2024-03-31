@@ -17,7 +17,7 @@ export default function Hero() {
       />
       <div className="absolute inset-0 backdrop:blur-sm bg-opacity-55 bg-black flex py-32 justify-center text-center">
         <div className="space-y-2">
-          <h1 className="text-3xl md:text-8xl font-bold text-white">Muebles el dormitorio</h1>
+          <h1 className="text-3xl md:text-8xl font-bold text-white">El Dormitorio Decoracion</h1>
           <p className="text-lg md:text-3xl text-white">Muebles artesanales en Pamplona</p>
         </div>
       </div>
