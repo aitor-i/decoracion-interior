@@ -13,19 +13,19 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
-    },
-    colors: {
-      brown: {
-        100: '#F4EDE4',
-        200: '#E9DBC9',
-        300: '#DECAAF',
-        400: '#D3B994',
-        500: '#C8A97A',
-        600: '#BD9960',
-        700: '#B28946',
-        800: '#A7792C',
-        900: '#9C6912',
-      }
+      colors: {
+        brown: {
+          100: '#F4EDE4',
+          200: '#E9DBC9',
+          300: '#DECAAF',
+          400: '#D3B994',
+          500: '#C8A97A',
+          600: '#BD9960',
+          700: '#B28946',
+          800: '#A7792C',
+          900: '#9C6912',
+        }
+      },
     },
   },
   plugins: [require("tailwindcss-animate")],
