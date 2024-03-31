@@ -2,7 +2,7 @@ import { FacebookIcon, InstagramIcon, TwitterIcon } from "@/components/Icons/Ico
 
 export default function Footer() {
   return (
-    <footer className="flex items-center justify-between px-8 py-4 bg-white ">
+    <footer className="flex items-center justify-between px-8 py-4 bg-brown-100 text-gray-600 ">
       <div className="flex items-center space-x-4">
         <FacebookIcon className="h-6 w-6" />
         <TwitterIcon className="h-6 w-6" />
