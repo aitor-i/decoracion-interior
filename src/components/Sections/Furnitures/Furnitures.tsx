@@ -1,17 +1,21 @@
 import { Card, CardContent } from '@/components/ui/card'
-import React from 'react'
+import Image from 'next/image'
+
+import sofa1 from '@/../public/sofa1.webp'
+import sofa2 from '@/../public/sofa-2.webp'
+import desk from '@/../public/desk.webp'
 
 export default function Furnitures() {
   return (
-    <section className="py-12 px-8">
+    <section className="py-12 md:py-32 px-8">
       <h2 className="text-2xl font-semibold mb-4">Featured Items</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         <Card>
-          <img
+          <Image
             alt="Furniture 1"
             className="w-full h-48 object-cover"
             height="200"
-            src="/placeholder.svg"
+            src={sofa1}
             style={{
               aspectRatio: "200/200",
               objectFit: "cover",
@@ -24,11 +28,11 @@ export default function Furnitures() {
           </CardContent>
         </Card>
         <Card>
-          <img
+          <Image
             alt="Furniture 2"
             className="w-full h-48 object-cover"
             height="200"
-            src="/placeholder.svg"
+            src={sofa2}
             style={{
               aspectRatio: "200/200",
               objectFit: "cover",
@@ -41,11 +45,11 @@ export default function Furnitures() {
           </CardContent>
         </Card>
         <Card>
-          <img
+          <Image
             alt="Furniture 3"
             className="w-full h-48 object-cover"
             height="200"
-            src="/placeholder.svg"
+            src={desk}
             style={{
               aspectRatio: "200/200",
               objectFit: "cover",
